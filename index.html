@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Subscription App</title>
+    <style>
+        body{
+            background-color: rgb(19, 19, 48);
+            height: 100vh;
+            width: 100vw;
+        }
+        .container{
+            position: relative;
+            background-color: white;
+            margin: 50px;
+            border-radius: 11px;
+            height: 100vh;
+            width: 90vw;
+            /* text-align: center; */
+            
+        }
+        .community{
+            background-color: rgb(255, 253, 253);
+            text-align: center;
+            border-radius: 11px;
+            padding: 30px;
+        }
+        .card{
+            color: white;
+            background-color: rgb(15, 67, 66);
+            position: absolute;
+            bottom: 0px;
+            left:0px;
+            height: 50vh;
+            width: 85vh;
+            margin: 0px;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            border-bottom-left-radius: 11px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:125%;
+            line-height: 5px;
+        }
+        .why-us{
+            color: white;
+            background-color: rgba(85, 145, 142, 0.698);
+            position:absolute;
+            bottom: 0px;
+            right: 0px;
+            height: 50vh;
+            width: 85vh;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            border-bottom-right-radius: 11px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:125%;
+            line-height: 5px;
+        }
+        #sign-up{
+            position: relative;
+            background-color: rgb(12, 212, 12);
+            height: 25px;
+            width: 150px;
+            border: 2px solid rgb(12, 212, 12);
+            border-radius: 3px;
+        }
+        .center-align{
+            padding: 15vh;
+        }
+        .why-us-us{
+            position: absolute;
+            
+            padding: 15vh;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="community">
+            <p style="color: rgb(8, 207, 233);">Join our community</p><br>
+            <p style="color: rgb(9, 238, 20);">30-days , hassle free money back guarantee</p><br>
+            <p style="color: rgba(116, 106, 106, 0.76);">Gain access to our full library of tutorials along with expert code reviews .Perfect for any developers who are serious about honing their skills .</p>
+        </div>
+        
+        <div class="card">
+            <div class="center-align"><p>Monthly Subscription</p><br>
+                <p><span>$29</span> Per Monthly</p><br>
+                <p>Full access for less than $1 a day.</p><br>
+                <button id="sign-up">Sign Up</button></div>
+        </div>
+        <div class="why-us">
+            <div class="why-us-us"><p>Why Us</p>
+                <p>Tutorials by industry experts </p>
+                <p>Peer & espert code review </p>
+                <p>Coding exercises </p>
+                <p>Access yo our GitHub repos</p>
+                <p>Community forum</p>
+                <p>Fashcard decks</p></div>
+        </div>
+    </div>
+</body>
+</html>
